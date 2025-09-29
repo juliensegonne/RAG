@@ -3,7 +3,7 @@ A minimal Retrieval-Augmented Generation (RAG) implementation designed for exper
 This notebook demonstrates how to combine document embeddings, a vector store, and LLM APIs to build a simple yet effective retrieval-based question-answering pipeline.
 
 ## Features
-- Supports TXT files, PDF files, and Wikipedia pages as data sources.
+- Supports Youtube videos (subtitles scrapping), Wikipedia pages, PDF and TXT as data sources.
 - Embedding generation using SentenceTransformers.
 - Vector storage and retrieval with FAISS or a manual cosine similarity implementation (for small datasets).
 - Integration with multiple LLM APIs (e.g. Gemini, Mistral, Groq).
